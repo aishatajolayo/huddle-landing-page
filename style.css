@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'open-sans';
 }
 body{
     background-color: white;
@@ -16,7 +17,8 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 20px 80px;
+    margin: 0px 80px 20px;
+    padding-top: 20px;
    
 }
 .free{
@@ -55,21 +57,21 @@ h3 {
     font-size: 40px;
     margin: 20px;
 }
-p{
+p, a,li{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 18px;
   font-style: normal;
   margin: 20px;
+  line-height: 2.5;
 }
 .grow-together{
     width: 600px;
 }
 .grow{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin: 20px 80px;
+    display: block;
+    
+    margin: 10px 80px;
     border-radius: 2px;
 }
 .flowing{
@@ -92,7 +94,7 @@ p{
 }
 .footer{
     background-color: hsl(192, 100%, 9%);
-    padding: 60px;
+    padding: 40px;
     /* max-width: 300px; */
     /* padding-top:150px;
     padding-bottom: 80px;
@@ -100,18 +102,23 @@ p{
     /* margin: 20px auto; */
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
-
+    font-size: 11px;
+    margin-right: 0;
+    
 }
 .location{
     display: flex;
     align-items: center;
     gap: 10px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-size: 11px;
 }
 .phone{
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 11px;
     /* margin-bottom: 10px; */
 }
 .email{
@@ -128,9 +135,10 @@ p{
     gap: 20px;
     border-radius: 200px;
     margin: 50px; 
+
 }
 .facebook{
-    width: 30px;
+    width: 50px;
     color: white;
 }
 .twitter{
@@ -150,10 +158,12 @@ p{
     border: none;
 } */
 .about{
-    margin: 50px;
+    margin: 30px;
+    padding-top: 32px;
 }
 .Career{
-    margin: 50px;
+    margin: 30px;
+    padding-top: 32px;
 }
 .about{
     text-decoration: none;
@@ -171,4 +181,32 @@ ul{
 }
 a{
     color: white;
+    text-decoration: none;
+    /* opacity: 80%; */
+}
+a:hover{
+    text-decoration: underline;
+}
+.huddle-grid{
+    margin-left:40px;
+    margin-right: 40px;
+}
+@media (min-width: 320px) {
+    .grow{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 20px 80px;g
+    border-radius: 2px;
+    }
+    .second{
+        /* display:git; */
+    }
+    .first-section{
+        padding: 0;
+        margin: 0;
+    }
+    .mockups{
+        /* width:50px; */
+    }
 }
