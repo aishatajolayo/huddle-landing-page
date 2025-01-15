@@ -148,7 +148,7 @@ p, a,li{
     width: 30px;
 }
 .copy{
-    color: white;
+    color: red;
     margin-top: 100px;
     font-size: 13px;
 }
@@ -173,14 +173,14 @@ li{
     color: white;
 }
 .lorem{
-    color: white;
+    color: red;
     font-size: 13px;
 }
 ul{
     list-style-type: none;
 }
 a{
-    color: white;
+    color: red;
     text-decoration: none;
     /* opacity: 80%; */
 }
